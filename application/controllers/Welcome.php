@@ -4,26 +4,26 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 class Welcome extends CI_Controller {
 	public function index()
 	{
-		$this->load->view('Desain/index.html');
+		$this->load->view('Desain/HalamanUtama.html');
 	}
-	public function about()
+	public function Hasilbumi()
 	{
-		$this->load->view('Desain/about.html');
+		$this->load->view('Desain/HasilBumi.html');
 	}
-	public function blog()
+	public function Petadesa()
 	{
-		$this->load->view('Desain/blog.html');
+		$this->load->view('Desain/PetaDesa.html');
 	}
-	public function contact()
+	public function Sejarahdesa()
 	{
-		$this->load->view('Desain/contact.html');
+		$this->load->view('Desain/SejarahDesa.html');
 	}
-	public function portfolio()
+	public function Strukturdesa()
 	{
-		$this->load->view('Desain/portfolio.html');
+		$this->load->view('Desain/StrukturDesa.html');
 	}
-	public function service()
+	public function Wisatadesa()
 	{
-		$this->load->view('Desain/services.html');
+		$this->load->view('Desain/WisataDesa.html');
 	}
 }
